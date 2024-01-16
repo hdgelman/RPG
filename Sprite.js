@@ -5,7 +5,7 @@ class Sprite {
         this.image = new Image();
         this.image.src = config.src;
         this.image.onLoad = () => {
-            this.isLoaded = false;
+            this.isLoaded = true;
         }
 
         // Configure animation and initial state
